@@ -79,11 +79,11 @@ app.post("/api/register", (req, res) => {
 });
 
 
-app.get("/testget", async (req,res)=>{
-  const result = await Product.findOne({ _id: '6429979b2e5434138eda1564'})
-  res.json(result)
+// app.get("/testget", async (req,res)=>{
+//   const result = await Product.findOne({ _id: '6429979b2e5434138eda1564'})
+//   res.json(result)
 
-})
+// })
 
 // Here we are listening to the server
 app.listen(PORT, () => {
